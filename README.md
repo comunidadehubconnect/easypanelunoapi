@@ -28,11 +28,11 @@ Va ate final da pagina
 
 ![image](https://github.com/comunidadehubconnect/easypanelwoofedcrm/assets/91642837/828a9e88-45f2-4b6b-98f1-ab4f164d2889)
 
-## Adicione código abaixo dentro do Schema e adicionar Agente Criado Super_admin Chatwoot
+## Adicione código abaixo dentro do Schema 
 
 ![image](https://github.com/comunidadehubconnect/easypanelwoofedcrm/assets/91642837/74b97f33-e5d2-495d-aaba-25bb8b433adf)
 
-Lembre de alterar informações de Storage
+## Lembre de alterar informações de Storage e adicionar Agente Criado Super_admin Chatwoot
 
 ```bash
 {
