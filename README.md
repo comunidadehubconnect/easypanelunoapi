@@ -119,4 +119,4 @@ Va ate final da pagina
 
 ### Pronto tudo Funcionando ✅😎
 
-Creditos: `André Marques`
+Creditos: `Bruno`
