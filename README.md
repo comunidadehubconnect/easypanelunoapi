@@ -32,33 +32,6 @@ Adicione código abaixo dentro do Schema
 
 ![image](https://github.com/comunidadehubconnect/easypanelwoofedcrm/assets/91642837/74b97f33-e5d2-495d-aaba-25bb8b433adf)
 
-```bash
-{
-  "services": [
-    {
-      "type": "postgres",
-      "data": {
-        "projectName": "evolution-db",
-        "serviceName": "evolution-db",
-        "image": "bitnami/postgresql:16"
-      }
-    },
-    {
-      "type": "redis",
-      "data": {
-        "projectName": "evolution",
-        "serviceName": "evolution-redis",
-        "password": "senharedis"
-      }
-    }
-  ]
-}
-```
-
-Adicione código abaixo dentro do Schema, com credenciais Postgres e Redis alteradas
-
-![image](https://github.com/comunidadehubconnect/easypanelwoofedcrm/assets/91642837/74b97f33-e5d2-495d-aaba-25bb8b433adf)
-
 Lembre de alterar informações de Storage
 
 ```bash
