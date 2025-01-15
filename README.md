@@ -54,9 +54,9 @@ Va ate final da pagina
         },
         "domains": [
           {
-            "host": "$(PRIMARY_DOMAIN)",
+            "host": "$(EASYPANEL_DOMAIN)",
             "https": true,
-            "port": 80,
+            "port": 9876,
             "path": "/",
             "wildcard": false
           }
@@ -87,7 +87,7 @@ Va ate final da pagina
         },
         "domains": [
           {
-            "host": "$(PRIMARY_DOMAIN)",
+            "host": "$(EASYPANEL_DOMAIN)",
             "https": true,
             "port": 5672,
             "path": "/",
