@@ -46,7 +46,7 @@ Va ate final da pagina
           "type": "image",
           "image": "clairton/unoapi-cloud:latest"
         },
-        "env": "STORAGE_BUCKET_NAME=nomeseubucket\r\nSTORAGE_ACCESS_KEY_ID=IDSTORAGE\r\nSTORAGE_SECRET_ACCESS_KEY=KEYSTORAGE\r\nSTORAGE_REGION=REGIÃOSTORAGE\r\nSTORAGE_ENDPOINT=https://files3.urlstorage\r\nSTORAGE_FORCE_PATH_STYLE=true\r\nSTORAGE_TIMEOUT_MS=true\r\nBASE_URL=https://$(PRIMARY_DOMAIN)\r\nWEBHOOK_HEADER=Token Agente Criado Super_admin\r\nWEBHOOK_URL=https://urlchatwoot/webhooks/whatsapp\r\nWEBHOOK_TOKEN=Token Agente Criado Super_admin\r\nIGNORE_GROUP_MESSAGES=false\r\nIGNORE_BROADCAST_STATUSES=false\r\nIGNORE_BROADCAST_MESSAGES=false\r\n\r\nIGNORE_STATUS_MESSAGE=false\r\nIGNORE_OWN_MESSAGES=false\r\nUNOAPI_AUTH_TOKEN=\r\nREJECT_CALLS=\r\nREJECT_CALLS_WEBHOOK=\r\nSEND_CONNECTION_STATUS=false\r\nLOG_LEVEL=debug\r\nUNO_LOG_LEVEL=debug\r\nUNOAPI_RETRY_REQUEST_DELAY=1_000\r\nAMQP_URL=amqp://admin:aub8i7KajdZOlQ98!@tutoriais_unoapi-rabbitmq:5672/default\r\nREDIS_URL=redis://default:aub8i7KajdZOlQ98!@tutoriais_unoapi-redis:6379",
+        "env": "STORAGE_BUCKET_NAME=nomeseubucket \nSTORAGE_ACCESS_KEY_ID=IDSTORAGE \nSTORAGE_SECRET_ACCESS_KEY=KEYSTORAGE \nSTORAGE_REGION=REGIÃOSTORAGE \nSTORAGE_ENDPOINT=https://files3.urlstorage \nSTORAGE_FORCE_PATH_STYLE=true \nSTORAGE_TIMEOUT_MS=true \nBASE_URL=https://$(PRIMARY_DOMAIN) \nWEBHOOK_HEADER=Token Agente Criado Super_admin \nWEBHOOK_URL=https://urlchatwoot/webhooks/whatsapp \nWEBHOOK_TOKEN=Token Agente Criado Super_admin \nIGNORE_GROUP_MESSAGES=false \nIGNORE_BROADCAST_STATUSES=false \nIGNORE_BROADCAST_MESSAGES=false \nIGNORE_STATUS_MESSAGE=false \nIGNORE_OWN_MESSAGES=false \nUNOAPI_AUTH_TOKEN= \nREJECT_CALLS= \nREJECT_CALLS_WEBHOOK= \nSEND_CONNECTION_STATUS=false \nLOG_LEVEL=debug \nUNO_LOG_LEVEL=debug \nUNOAPI_RETRY_REQUEST_DELAY=1_000 \nAMQP_URL=amqp://admin:aub8i7KajdZOlQ98!@tutoriais_unoapi-rabbitmq:5672/default \nREDIS_URL=redis://default:aub8i7KajdZOlQ98!@tutoriais_unoapi-redis:6379",
         "deploy": {
           "replicas": 1,
           "command": null,
@@ -79,7 +79,7 @@ Va ate final da pagina
           "type": "image",
           "image": "rabbitmq"
         },
-        "env": "RABBITMQ_ERLANG_COOKIE=h8uh8fuh8dfhdfhdfhf\r\nRABBITMQ_DEFAULT_VHOST=default\r\nRABBITMQ_DEFAULT_USER=admin\r\nRABBITMQ_DEFAULT_PASS=aub8i7KajdZOlQ98!",
+        "env": "RABBITMQ_ERLANG_COOKIE=h8uh8fuh8dfhdfhdfhf \nRABBITMQ_DEFAULT_VHOST=default \nRABBITMQ_DEFAULT_USER=admin \nRABBITMQ_DEFAULT_PASS=aub8i7KajdZOlQ98!",
         "deploy": {
           "replicas": 1,
           "command": null,
