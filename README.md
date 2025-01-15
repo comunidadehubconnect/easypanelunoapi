@@ -54,7 +54,7 @@ Va ate final da pagina
         },
         "domains": [
           {
-            "host": "https://$(PRIMARY_DOMAIN)",
+            "host": "$(PRIMARY_DOMAIN)",
             "https": true,
             "port": 80,
             "path": "/",
@@ -87,7 +87,7 @@ Va ate final da pagina
         },
         "domains": [
           {
-            "host": "https://$(PRIMARY_DOMAIN)",
+            "host": "$(PRIMARY_DOMAIN)",
             "https": true,
             "port": 5672,
             "path": "/",
